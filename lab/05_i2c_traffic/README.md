@@ -3,10 +3,19 @@
 - use your Lab 1 firefly code to generate ADPS9960 I2C traffic and display it on a lab oscilloscope
 - take a screenshot of some portion of this exchange, and figure out/annotate what's happening based on the protocol documentation in the ADPS9960 datasheet 
 
+### part5
 
-# lab2bpart
+### Introduction
 
-part5:
+In this part, we will use brightness sensor on APDS9960 connected with RP2040 via I2C and lab1 firefly code to measure SCL and SDK value through oscilloscope. The scope trace will show the I2C bus between RP2040 and APDS9960.
+
+![2e5762c9d4801c056d7840178223c31](https://user-images.githubusercontent.com/114200453/202347142-775cb4ea-bf16-4d05-8fd9-39e6acbc1f6d.jpg)
+
+
+
+
+
+
 
 
 ## part5
