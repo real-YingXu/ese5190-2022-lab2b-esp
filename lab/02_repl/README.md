@@ -11,6 +11,7 @@ In this part, we will basically use RP2040. The ideal program should be that whe
 
 #code
 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "pico/stdlib.h"
