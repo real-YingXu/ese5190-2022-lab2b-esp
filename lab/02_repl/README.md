@@ -16,16 +16,13 @@ In this part, we will basically use RP2040. The ideal program should be that whe
 #include <stdlib.h>
 #include "pico/stdlib.h"
 #include "ws2812.h"
-
 #include "pico/stdlib.h"
 #include "hardware/pio.h"
 #include "hardware/clocks.h"
 #include "ws2812.pio.h"
 #include "registers.h"
-
 #define IS_RGBW true
 #define NUM_PIXELS 150
-
 #ifdef PICO_DEFAULT_WS2812_PIN
 #define WS2812_PIN PICO_DEFAULT_WS2812_PIN
 #else
@@ -35,12 +32,8 @@ In this part, we will basically use RP2040. The ideal program should be that whe
 #define WS2812_PIN 12
 #define WS2812_POWER_PIN 11
 #endif
-
-
-
 int main() {
     stdio_init_all();
-
     PIO pio = pio0;
     int sm = 0;
     uint offset = pio_add_program(pio, &ws2812_program);
