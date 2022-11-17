@@ -5,16 +5,16 @@ Create a REPL to let you read and write RP2040 registers from a console. You sho
 - read/write any 32-bit value to this address
 - read/write using any of the atomic bit-setting aliases and a 32-bit mask
 
-#Introduction:
+### Introduction:
 In this part, we will basically use RP2040. The ideal program should be that when the program starts, it will ask the user to select/input a register address then choose to read/write. Once it finished expected reading/writing, it will print a success message from the console.
 
 
-###code
+### code
 
 ![image](https://user-images.githubusercontent.com/114256663/202346026-13f2d1be-616c-4d09-89d8-86324f126968.png)
 ![image](https://user-images.githubusercontent.com/114256663/202346055-72951495-e101-4401-ac47-314f45e4d027.png)
 
-###result
+### result
 
 Firstly we choose the address 0xd0000060, which can be read and edit with 0-31 bits. We first read the original value at the address (0x7fffff) and then modified it as 0x8fffff. The console shows that the value has been successfully edited.
 
