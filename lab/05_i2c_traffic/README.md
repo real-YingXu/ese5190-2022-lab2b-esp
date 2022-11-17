@@ -16,10 +16,6 @@ In this part, we will use brightness sensor on APDS9960 connected with RP2040 vi
 
 
 
-
-
-## part5
-
 ##
 connecting circuit
 
