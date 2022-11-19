@@ -142,18 +142,24 @@ We directly added neopixel function to APDS9960.c in the previous section.
             }
  ```
  
+
+ 
  ### Result:
 
 The neopixel will perform color and brightness changes which APDS9960 detected. The resylt is shown below:
 
-![]:(https://github.com/real-YingXu/ese5190-2022-lab2b-esp/blob/main/lab/09_lab_on_a_chip/ezgif.com-gif-maker%20(7).gif)
+![4ndwq-xdx3h](https://user-images.githubusercontent.com/113209201/202830625-d335e3c6-8fb3-45cc-984f-ce63c719e334.gif)
 
-![]:(https://github.com/real-YingXu/ese5190-2022-lab2b-esp/blob/main/lab/09_lab_on_a_chip/ezgif.com-gif-maker%20(10).gif）
            
 
-       
+![ezgif com-gif-maker (10)](https://user-images.githubusercontent.com/113209201/202834158-5cf55f10-7099-4687-ab76-1faaac011858.gif)
+Then, we use another py2040 connected to PIO I2C to read SDA and SCL (with part 6 code):
+        
+ 
+
         
 
+    
 
         
 
