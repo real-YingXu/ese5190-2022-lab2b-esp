@@ -146,8 +146,8 @@ We directly added neopixel function to APDS9960.c in the previous section.
 
 The neopixel will perform color and brightness changes which APDS9960 detected. The resylt is shown below:
 
-![4ndwq-xdx3h](https://github.com/real-YingXu/ese5190-2022-lab2b-esp/blob/main/lab/09_lab_on_a_chip/ezgif.com-gif-maker%20(7).gif)
-
+![](https://github.com/real-YingXu/ese5190-2022-lab2b-esp/blob/main/lab/09_lab_on_a_chip/ezgif.com-gif-maker%20(7).gif)
+![](https://github.com/real-YingXu/ese5190-2022-lab2b-esp/blob/main/lab/09_lab_on_a_chip/ezgif.com-gif-maker%20(10).gif）
            
 
        
